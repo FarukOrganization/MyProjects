@@ -1,0 +1,56 @@
+<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />696969
+--%>
+
+<asp:GridView Runat="server"  CssClass="textb" SkinId="normalgrid"
+			BorderStyle="Solid" BorderColor="#efefef"	
+			BorderWidth="1px" BackColor="White"
+			GridLines="Both"
+            CellPadding="4" ForeColor="Black">
+           
+ </asp:GridView>
+        
+ <asp:GridView Runat="server"  CssClass="textb"
+			BorderStyle="Solid" BorderColor="#5C87B2"	
+			BorderWidth="1px" BackColor="White"
+			GridLines="Both"
+            CellPadding="4" ForeColor="Black">
+            <FooterStyle BackColor="#CCCC99"></FooterStyle>
+            <PagerStyle ForeColor="Black" HorizontalAlign="Right" BackColor="White"></PagerStyle>
+            <HeaderStyle ForeColor="Black" Font-Bold="True" BackColor="#5C87B2"></HeaderStyle>
+            <AlternatingRowStyle BackColor="White"></AlternatingRowStyle>
+            <SelectedRowStyle ForeColor="White" Font-Bold="True" BackColor="#CE5D5A"></SelectedRowStyle>
+            <RowStyle BackColor="White" HorizontalAlign="Left"></RowStyle>
+           
+ </asp:GridView>  
+        
+<asp:Label Runat="server" CssClass="editmodelable" SkinId="editmodelabelskin"></asp:Label>
+<asp:Label Runat="server" CssClass="gridheaderlable" SkinId="gridheaderlableskin"></asp:Label>
+<asp:Label Runat="server" CssClass="generallable" SkinId="generallableskin"></asp:Label>
+<asp:Label Runat="server" CssClass="hp-link1" SkinId="hyperlinklableskin"></asp:Label>
+<asp:Label Runat="server" CssClass="dateformatlable" SkinId="dateformatlableskin"></asp:Label>
+
+
+<asp:TextBox Runat="server" CssClass="textboxtype" SkinId="fullsizedtextbox"></asp:TextBox>        
+        
+<asp:TextBox Runat="server" CssClass="mediumtextboxtype" SkinId="mediumsizedtextbox"></asp:TextBox>        
+<asp:TextBox Runat="server" CssClass="smalltxtboxtype" SkinId="smallsizedtextbox"></asp:TextBox>        
+<asp:TextBox Runat="server" CssClass="multilinelargetextboxtype" SkinId="multilinelargetextbox"></asp:TextBox>
+<asp:TextBox Runat="server" CssClass="multilinemadiumtextboxtype" SkinId="multilinemediumtextbox"></asp:TextBox>
+<asp:TextBox Runat="server"  SkinId="textbox"></asp:TextBox>  
+
+<asp:DropDownList Runat="server" CssClass="mediumdropdownstyle" SkinId="mediumsizeddropdownlist"></asp:DropDownList>
+<asp:DropDownList Runat="server" CssClass="largedropdownstyle" SkinId="largesizeddropdownlist"></asp:DropDownList>
+

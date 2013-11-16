@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Web Developer Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParameterManagment", "ParameterManagment\ParameterManagment.csproj", "{863F7FFC-F3B4-4BF3-AD78-DBF2F23C3D2D}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MCSWeb", "MCSWeb\", "{01860F8C-7B4D-4431-8BB5-229721EBCC18}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{863F7FFC-F3B4-4BF3-AD78-DBF2F23C3D2D}|ParameterManagment.dll;{92E6660A-AD67-40BB-A0F5-3A97965EB4F4}|BusinessManagement.dll;{F2F572EF-973D-4813-9E6B-F60AE6E8F792}|DALManagment.dll;{BA1A7EE7-2C33-4590-9469-7901520037D8}|Utility.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/MCSWeb"
+		Debug.AspNetCompiler.PhysicalPath = "MCSWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\MCSWeb\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/MCSWeb"
+		Release.AspNetCompiler.PhysicalPath = "MCSWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\MCSWeb\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1101"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALManagment", "DALManagment\DALManagment.csproj", "{F2F572EF-973D-4813-9E6B-F60AE6E8F792}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessManagement", "BusinessManagement\BusinessManagement.csproj", "{92E6660A-AD67-40BB-A0F5-3A97965EB4F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.csproj", "{BA1A7EE7-2C33-4590-9469-7901520037D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{863F7FFC-F3B4-4BF3-AD78-DBF2F23C3D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{863F7FFC-F3B4-4BF3-AD78-DBF2F23C3D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{863F7FFC-F3B4-4BF3-AD78-DBF2F23C3D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{863F7FFC-F3B4-4BF3-AD78-DBF2F23C3D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01860F8C-7B4D-4431-8BB5-229721EBCC18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01860F8C-7B4D-4431-8BB5-229721EBCC18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01860F8C-7B4D-4431-8BB5-229721EBCC18}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{01860F8C-7B4D-4431-8BB5-229721EBCC18}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F2F572EF-973D-4813-9E6B-F60AE6E8F792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2F572EF-973D-4813-9E6B-F60AE6E8F792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2F572EF-973D-4813-9E6B-F60AE6E8F792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2F572EF-973D-4813-9E6B-F60AE6E8F792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92E6660A-AD67-40BB-A0F5-3A97965EB4F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92E6660A-AD67-40BB-A0F5-3A97965EB4F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92E6660A-AD67-40BB-A0F5-3A97965EB4F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92E6660A-AD67-40BB-A0F5-3A97965EB4F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA1A7EE7-2C33-4590-9469-7901520037D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA1A7EE7-2C33-4590-9469-7901520037D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA1A7EE7-2C33-4590-9469-7901520037D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA1A7EE7-2C33-4590-9469-7901520037D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

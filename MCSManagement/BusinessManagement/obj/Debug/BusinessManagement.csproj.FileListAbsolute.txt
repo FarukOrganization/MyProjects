@@ -1,0 +1,18 @@
+G:\ASP.Net Projects\MCSManagement\BusinessManagement\bin\Debug\BusinessManagement.dll
+G:\ASP.Net Projects\MCSManagement\BusinessManagement\bin\Debug\BusinessManagement.pdb
+G:\ASP.Net Projects\MCSManagement\BusinessManagement\bin\Debug\DALManagment.dll
+G:\ASP.Net Projects\MCSManagement\BusinessManagement\bin\Debug\Utility.dll
+G:\ASP.Net Projects\MCSManagement\BusinessManagement\bin\Debug\Utility.pdb
+G:\ASP.Net Projects\MCSManagement\BusinessManagement\bin\Debug\DALManagment.pdb
+G:\ASP.Net Projects\MCSManagement\BusinessManagement\obj\Debug\ResolveAssemblyReference.cache
+G:\ASP.Net Projects\MCSManagement\BusinessManagement\obj\Debug\BusinessManagement.dll
+G:\ASP.Net Projects\MCSManagement\BusinessManagement\obj\Debug\BusinessManagement.pdb
+C:\Developments\MCSManagement\BusinessManagement\bin\Debug\BusinessManagement.dll
+C:\Developments\MCSManagement\BusinessManagement\bin\Debug\BusinessManagement.pdb
+C:\Developments\MCSManagement\BusinessManagement\bin\Debug\DALManagment.dll
+C:\Developments\MCSManagement\BusinessManagement\bin\Debug\Utility.dll
+C:\Developments\MCSManagement\BusinessManagement\bin\Debug\DALManagment.pdb
+C:\Developments\MCSManagement\BusinessManagement\bin\Debug\Utility.pdb
+C:\Developments\MCSManagement\BusinessManagement\obj\Debug\ResolveAssemblyReference.cache
+C:\Developments\MCSManagement\BusinessManagement\obj\Debug\BusinessManagement.dll
+C:\Developments\MCSManagement\BusinessManagement\obj\Debug\BusinessManagement.pdb

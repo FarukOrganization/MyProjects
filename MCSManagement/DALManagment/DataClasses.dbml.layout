@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 13.375" name="ParameterDataClasses">
+  <DataContextMoniker Name="/DALDataContext" />
+  <nestedChildShapes>
+    <classShape Id="1e93947a-7c5d-40cb-b099-17fb8cd41378" absoluteBounds="0.75, 0.75, 2, 1.75354248046875">
+      <DataClassMoniker Name="/DALDataContext/BankInformation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="726b5e74-df2a-472f-8e4d-c6306c1b8798" absoluteBounds="0.765, 1.21, 1.9700000000000002, 1.19354248046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f725c9a1-5ff6-4ae8-8538-a2d41089fef1" absoluteBounds="3.75, 0.75, 2, 1.9178898111979166">
+      <DataClassMoniker Name="/DALDataContext/MoneyChangerInformation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="acd042ab-a64c-448f-a0c2-552351db0665" absoluteBounds="3.765, 1.21, 1.9700000000000002, 1.3578898111979165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="32f1bb32-7af4-4aad-9476-c6e46acb5f99" absoluteBounds="0.875, 5.625, 2, 1.9178898111979166">
+      <DataClassMoniker Name="/DALDataContext/BankBranchInformation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2435264d-494b-4d07-a2c6-f8d606f72aaa" absoluteBounds="0.88999999999999968, 6.085, 1.9700000000000002, 1.3578898111979165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0d0a7fd0-39a6-4c94-a249-ec866d404703" absoluteBounds="4, 5.75, 2, 3.5613631184895826">
+      <DataClassMoniker Name="/DALDataContext/PurchaseInformation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e0e7033d-90ee-4de5-9564-b29945d36d4b" absoluteBounds="4.015, 6.21, 1.9700000000000002, 3.001363118489583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2b3bb703-1172-4c15-826d-e546537c7849" absoluteBounds="4, 9.625, 2, 3.5613631184895826">
+      <DataClassMoniker Name="/DALDataContext/SellInformation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="258a5abe-0066-4e94-9450-1dd4b020137e" absoluteBounds="4.015, 10.085, 1.9700000000000002, 3.001363118489583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1a687219-a2ba-449f-b831-efe8710722cd" absoluteBounds="4.75, 3.375, 2, 1.5891951497395831">
+      <DataClassMoniker Name="/DALDataContext/CountryInformation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ba98d75b-77a8-49c1-8cbb-7672ca583ec4" absoluteBounds="4.765, 3.835, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a70841a5-4b00-4a74-bdc6-08418388bb04" absoluteBounds="1.125, 8.125, 2, 1.9178898111979166">
+      <DataClassMoniker Name="/DALDataContext/Customer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b4372017-05fb-4f87-92b9-b508c2d8b46f" absoluteBounds="1.1400000000000001, 8.585, 1.9700000000000002, 1.3578898111979165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.40625 : 4.96419514973958); (6.40625 : 9.46818155924479); (3.125 : 9.46818155924479)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DALDataContext/CountryInformation/CountryInformation_Customer" />
+      <nodes>
+        <classShapeMoniker Id="1a687219-a2ba-449f-b831-efe8710722cd" />
+        <classShapeMoniker Id="a70841a5-4b00-4a74-bdc6-08418388bb04" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="5fe67b81-e3de-4a81-ade0-b00c9d38b266" absoluteBounds="1.375, 3.625, 2, 1.75354248046875">
+      <DataClassMoniker Name="/DALDataContext/CurrencyInformation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a6c46c63-1cd1-4777-8829-140a66c2424d" absoluteBounds="1.3900000000000001, 4.085, 1.9700000000000002, 1.19354248046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

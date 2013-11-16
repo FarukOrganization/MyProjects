@@ -1,0 +1,19 @@
+G:\ASP.Net Projects\MCSManagement\ParameterManagment\bin\Debug\ParameterManagment.dll.config
+G:\ASP.Net Projects\MCSManagement\ParameterManagment\bin\Debug\ParameterManagment.dll
+G:\ASP.Net Projects\MCSManagement\ParameterManagment\bin\Debug\ParameterManagment.pdb
+G:\ASP.Net Projects\MCSManagement\ParameterManagment\bin\Debug\DALManagment.dll
+G:\ASP.Net Projects\MCSManagement\ParameterManagment\bin\Debug\Utility.dll
+G:\ASP.Net Projects\MCSManagement\ParameterManagment\bin\Debug\Utility.pdb
+G:\ASP.Net Projects\MCSManagement\ParameterManagment\bin\Debug\DALManagment.pdb
+G:\ASP.Net Projects\MCSManagement\ParameterManagment\obj\Debug\ResolveAssemblyReference.cache
+G:\ASP.Net Projects\MCSManagement\ParameterManagment\obj\Debug\ParameterManagment.dll
+G:\ASP.Net Projects\MCSManagement\ParameterManagment\obj\Debug\ParameterManagment.pdb
+C:\Developments\MCSManagement\ParameterManagment\bin\Debug\ParameterManagment.dll
+C:\Developments\MCSManagement\ParameterManagment\bin\Debug\ParameterManagment.pdb
+C:\Developments\MCSManagement\ParameterManagment\bin\Debug\DALManagment.dll
+C:\Developments\MCSManagement\ParameterManagment\bin\Debug\Utility.dll
+C:\Developments\MCSManagement\ParameterManagment\bin\Debug\DALManagment.pdb
+C:\Developments\MCSManagement\ParameterManagment\bin\Debug\Utility.pdb
+C:\Developments\MCSManagement\ParameterManagment\obj\Debug\ResolveAssemblyReference.cache
+C:\Developments\MCSManagement\ParameterManagment\obj\Debug\ParameterManagment.dll
+C:\Developments\MCSManagement\ParameterManagment\obj\Debug\ParameterManagment.pdb

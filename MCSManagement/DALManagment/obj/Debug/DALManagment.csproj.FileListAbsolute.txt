@@ -1,0 +1,16 @@
+G:\ASP.Net Projects\MCSManagement\DALManagment\bin\Debug\DALManagment.dll.config
+G:\ASP.Net Projects\MCSManagement\DALManagment\bin\Debug\DALManagment.dll
+G:\ASP.Net Projects\MCSManagement\DALManagment\bin\Debug\DALManagment.pdb
+G:\ASP.Net Projects\MCSManagement\DALManagment\bin\Debug\Utility.dll
+G:\ASP.Net Projects\MCSManagement\DALManagment\bin\Debug\Utility.pdb
+G:\ASP.Net Projects\MCSManagement\DALManagment\obj\Debug\ResolveAssemblyReference.cache
+G:\ASP.Net Projects\MCSManagement\DALManagment\obj\Debug\DALManagment.dll
+G:\ASP.Net Projects\MCSManagement\DALManagment\obj\Debug\DALManagment.pdb
+C:\Developments\MCSManagement\DALManagment\bin\Debug\DALManagment.dll.config
+C:\Developments\MCSManagement\DALManagment\bin\Debug\DALManagment.dll
+C:\Developments\MCSManagement\DALManagment\bin\Debug\DALManagment.pdb
+C:\Developments\MCSManagement\DALManagment\bin\Debug\Utility.dll
+C:\Developments\MCSManagement\DALManagment\bin\Debug\Utility.pdb
+C:\Developments\MCSManagement\DALManagment\obj\Debug\ResolveAssemblyReference.cache
+C:\Developments\MCSManagement\DALManagment\obj\Debug\DALManagment.dll
+C:\Developments\MCSManagement\DALManagment\obj\Debug\DALManagment.pdb

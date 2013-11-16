@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title=""  description="">
+        <!--<siteMapNode  url="~//AssignRolePermission.aspx" title="AssignRolePermission"  description="" />
+        <siteMapNode url="~/AssignRoleToUser.aspx" title="AssignRoleToUser"  description="" />
+        <siteMapNode url="~/CreateUser.aspx" title="Create User"  description="" />
+        <siteMapNode url="~/ViewUser.aspx" title="View User"  description="" />-->
+      <siteMapNode title="Parameter Forms">
+        <siteMapNode url="~/CountryInfo.aspx" title="Country Information"  description="" />
+        <siteMapNode url="~/CurrencyInfo.aspx" title="Currency Information"  description="" />
+        <siteMapNode url="~/MoneyChangerInfo.aspx" title="MoneyChanger Information"  description="" />
+        <siteMapNode url="~/BankInfo.aspx" title="Bank Information"  description="" />
+        <siteMapNode url="~/BranchInformation.aspx" title="Branch Information"  description="" />
+      </siteMapNode>
+        <siteMapNode title="Purchase Forms">
+          <siteMapNode url="~/Purchase Forms/PurchaseFromCustomer.aspx" title="Purchase From Customer"  description="" />
+          <siteMapNode url="~/Purchase Forms/PurchaseFromBank.aspx" title="Purchase From Bank"  description="" />
+          <siteMapNode url="~/Purchase Forms/PurchaseFromMoneyChanger.aspx" title="Purchase From MoneyChanger"  description="" />
+          <siteMapNode url="~/Purchase Forms/PurchaseInformationList.aspx" title="Purchase InformationList"  description="" />
+        </siteMapNode>
+      <siteMapNode title="Sell Forms">
+        <siteMapNode url="~/Sell Forms/SellToCustomer.aspx" title="Sell To Customer"  description="" />
+        <siteMapNode url="~/Sell Forms/SellToBank.aspx" title="Sell To Bank"  description="" />
+        <siteMapNode url="~/Sell Forms/SellToMoneyChanger.aspx" title="Sell To MoneyChanger"  description="" />
+        <siteMapNode url="~/Sell Forms/SellInformationList.aspx" title="Sell To InformationList"  description="" />
+      </siteMapNode>
+      <siteMapNode title="Report Forms">
+        <siteMapNode url="~/Reports/Reporttest.aspx" title="CurrencyList"  description="" />
+        <siteMapNode url="~/Reports/PurchaseReports/PurchaseReport.aspx" title="PurchaseReport"  description="" />
+        <siteMapNode url="~/Reports/SellReports/SellReport.aspx" title="SellReport"  description="" />
+        <siteMapNode url="~/Reports/PurchaseSellBalanceReport.aspx" title="PurchaseSellBalanceReport"  description="" />
+      </siteMapNode>
+    </siteMapNode>
+</siteMap>

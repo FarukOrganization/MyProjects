@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="dbMoneyChangerMgt" Class="ParameterClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=faruk;Initial Catalog=dbMoneyChangerMgt;User ID=sa" SettingsObjectName="ParameterManagment.Properties.Settings" SettingsPropertyName="dbMoneyChangerMgtConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.BankInformation" Member="BankInformations">
+    <Type Name="BankInformation">
+      <Column Name="ID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="BankName" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="Detail" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="CreateDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeleteTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MoneyChangerInformation" Member="MoneyChangerInformations">
+    <Type Name="MoneyChangerInformation">
+      <Column Name="ID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="MoneyChangerName" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="Owner" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="CreateDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeleteTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CountryInformation" Member="CountryInformations">
+    <Type Name="CountryInformation">
+      <Column Name="ID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="CountryName" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="CreateDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeleteTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CurrencyInformation" Member="CurrencyInformations">
+    <Type Name="CurrencyInformation">
+      <Column Name="ID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="CurrencyName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="CreateDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CountryId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="DeleteTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BankBranchInformation" Member="BankBranchInformations">
+    <Type Name="BankBranchInformation">
+      <Column Name="ID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="BankId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="BranchName" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="Detail" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="CreateDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeleteTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.CreateNewBankInformation" Method="CreateNewBankInformation">
+    <Parameter Name="ID" Parameter="iD" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="BankName" Parameter="bankName" Type="System.String" DbType="VarChar(150)" />
+    <Parameter Name="Detail" Parameter="detail" Type="System.String" DbType="VarChar(150)" />
+    <Parameter Name="UserId" Parameter="userId" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.UpdateMoneyChangerInformation" Method="UpdateMoneyChangerInformation">
+    <Parameter Name="ID" Parameter="iD" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="MoneyChangerName" Parameter="moneyChangerName" Type="System.String" DbType="VarChar(150)" />
+    <Parameter Name="Owner" Parameter="owner" Type="System.String" DbType="VarChar(150)" />
+    <Parameter Name="Address" Parameter="address" Type="System.String" DbType="VarChar(200)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.CreateNewCountryInformation" Method="CreateNewCountryInformation">
+    <Parameter Name="ID" Parameter="iD" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="CountryName" Parameter="countryName" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="UserId" Parameter="userId" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.CreateNewCurrencyInformation" Method="CreateNewCurrencyInformation">
+    <Parameter Name="ID" Parameter="iD" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="CurrencyName" Parameter="currencyName" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="CountryId" Parameter="countryId" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="UserId" Parameter="userId" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.CreateNewMoneyChangerInformation" Method="CreateNewMoneyChangerInformation">
+    <Parameter Name="ID" Parameter="iD" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="MoneyChangerName" Parameter="moneyChangerName" Type="System.String" DbType="VarChar(150)" />
+    <Parameter Name="Owner" Parameter="owner" Type="System.String" DbType="VarChar(150)" />
+    <Parameter Name="Address" Parameter="address" Type="System.String" DbType="VarChar(200)" />
+    <Parameter Name="UserId" Parameter="userId" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.DeleteBankInformation" Method="DeleteBankInformation">
+    <Parameter Name="ID" Parameter="iD" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.DeleteCurrencyInformation" Method="DeleteCurrencyInformation">
+    <Parameter Name="ID" Parameter="iD" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.DeleteMoneyChangerInformation" Method="DeleteMoneyChangerInformation">
+    <Parameter Name="ID" Parameter="iD" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.GetAllBankInformation" Method="GetAllBankInformation">
+    <ElementType Name="GetAllBankInformationResult">
+      <Column Name="Id" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="BankName" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="Detail" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="CreateDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.GetAllCountryInformation" Method="GetAllCountryInformation">
+    <ElementType Name="GetAllCountryInformationResult">
+      <Column Name="Id" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="CountryName" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="CreateDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.GetAllCurrencyInformation" Method="GetAllCurrencyInformation">
+    <ElementType Name="GetAllCurrencyInformationResult">
+      <Column Name="Id" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="CurrencyName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CountryId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="CountryName" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="CreateDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.GetAllMoneyChangerInformation" Method="GetAllMoneyChangerInformation">
+    <ElementType Name="GetAllMoneyChangerInformationResult">
+      <Column Name="Id" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="MoneyChangerName" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="Owner" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="CreateDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.UpdateBankInformation" Method="UpdateBankInformation">
+    <Parameter Name="ID" Parameter="iD" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="BankName" Parameter="bankName" Type="System.String" DbType="VarChar(150)" />
+    <Parameter Name="Detail" Parameter="detail" Type="System.String" DbType="VarChar(150)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.UpdateCountryInformation" Method="UpdateCountryInformation">
+    <Parameter Name="ID" Parameter="iD" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="CountryName" Parameter="countryName" Type="System.String" DbType="VarChar(100)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.UpdateCurrencyInformation" Method="UpdateCurrencyInformation">
+    <Parameter Name="ID" Parameter="iD" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="CurrencyName" Parameter="currencyName" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="CountryId" Parameter="countryId" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.CreateNewBranchInformation" Method="CreateNewBranchInformation">
+    <Parameter Name="ID" Parameter="iD" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="BankId" Parameter="bankId" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="BranchName" Parameter="branchName" Type="System.String" DbType="VarChar(150)" />
+    <Parameter Name="Detail" Parameter="detail" Type="System.String" DbType="VarChar(150)" />
+    <Parameter Name="UserId" Parameter="userId" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.GetAllBranchInformationByBankId" Method="GetAllBranchInformationByBankId">
+    <Parameter Name="BankId" Parameter="bankId" Type="System.Guid" DbType="UniqueIdentifier" />
+    <ElementType Name="GetAllBranchInformationByBankIdResult">
+      <Column Name="Id" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="BankId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="BranchName" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="Detail" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="CreateDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.UpdateBranchInformation" Method="UpdateBranchInformation">
+    <Parameter Name="ID" Parameter="iD" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="BranchName" Parameter="branchName" Type="System.String" DbType="VarChar(150)" />
+    <Parameter Name="Detail" Parameter="detail" Type="System.String" DbType="VarChar(150)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.DeleteBranchInformation" Method="DeleteBranchInformation">
+    <Parameter Name="ID" Parameter="iD" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

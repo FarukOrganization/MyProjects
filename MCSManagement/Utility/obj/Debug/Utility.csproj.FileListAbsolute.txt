@@ -1,0 +1,11 @@
+G:\ASP.Net Projects\MCSManagement\Utility\bin\Debug\Utility.dll.config
+G:\ASP.Net Projects\MCSManagement\Utility\bin\Debug\Utility.dll
+G:\ASP.Net Projects\MCSManagement\Utility\bin\Debug\Utility.pdb
+G:\ASP.Net Projects\MCSManagement\Utility\obj\Debug\ResolveAssemblyReference.cache
+G:\ASP.Net Projects\MCSManagement\Utility\obj\Debug\Utility.dll
+G:\ASP.Net Projects\MCSManagement\Utility\obj\Debug\Utility.pdb
+C:\Developments\MCSManagement\Utility\bin\Debug\Utility.dll
+C:\Developments\MCSManagement\Utility\bin\Debug\Utility.pdb
+C:\Developments\MCSManagement\Utility\obj\Debug\ResolveAssemblyReference.cache
+C:\Developments\MCSManagement\Utility\obj\Debug\Utility.dll
+C:\Developments\MCSManagement\Utility\obj\Debug\Utility.pdb
