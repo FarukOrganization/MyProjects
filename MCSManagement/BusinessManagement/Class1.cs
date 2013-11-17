@@ -1,4 +1,4 @@
-﻿//Modified by faruk
+﻿﻿//Modified by faruk
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,5 +8,8 @@ namespace BusinessManagement
 {
     public class Class1
     {
+
+        //test this is for test
+
     }
 }
