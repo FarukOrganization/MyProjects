@@ -9,3 +9,8 @@ C:\Developments\MCSManagement\Utility\bin\Debug\Utility.pdb
 C:\Developments\MCSManagement\Utility\obj\Debug\ResolveAssemblyReference.cache
 C:\Developments\MCSManagement\Utility\obj\Debug\Utility.dll
 C:\Developments\MCSManagement\Utility\obj\Debug\Utility.pdb
+F:\Git configuration\Git Repo\MCSManagement\Utility\bin\Debug\Utility.dll
+F:\Git configuration\Git Repo\MCSManagement\Utility\bin\Debug\Utility.pdb
+F:\Git configuration\Git Repo\MCSManagement\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
+F:\Git configuration\Git Repo\MCSManagement\Utility\obj\Debug\Utility.dll
+F:\Git configuration\Git Repo\MCSManagement\Utility\obj\Debug\Utility.pdb

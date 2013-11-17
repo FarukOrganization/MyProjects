@@ -17,3 +17,12 @@ C:\Developments\MCSManagement\ParameterManagment\bin\Debug\Utility.pdb
 C:\Developments\MCSManagement\ParameterManagment\obj\Debug\ResolveAssemblyReference.cache
 C:\Developments\MCSManagement\ParameterManagment\obj\Debug\ParameterManagment.dll
 C:\Developments\MCSManagement\ParameterManagment\obj\Debug\ParameterManagment.pdb
+F:\Git configuration\Git Repo\MCSManagement\ParameterManagment\bin\Debug\ParameterManagment.dll
+F:\Git configuration\Git Repo\MCSManagement\ParameterManagment\bin\Debug\ParameterManagment.pdb
+F:\Git configuration\Git Repo\MCSManagement\ParameterManagment\bin\Debug\DALManagment.dll
+F:\Git configuration\Git Repo\MCSManagement\ParameterManagment\bin\Debug\Utility.dll
+F:\Git configuration\Git Repo\MCSManagement\ParameterManagment\bin\Debug\DALManagment.pdb
+F:\Git configuration\Git Repo\MCSManagement\ParameterManagment\bin\Debug\Utility.pdb
+F:\Git configuration\Git Repo\MCSManagement\ParameterManagment\obj\Debug\ParameterManagment.csprojResolveAssemblyReference.cache
+F:\Git configuration\Git Repo\MCSManagement\ParameterManagment\obj\Debug\ParameterManagment.dll
+F:\Git configuration\Git Repo\MCSManagement\ParameterManagment\obj\Debug\ParameterManagment.pdb

@@ -14,3 +14,11 @@ C:\Developments\MCSManagement\DALManagment\bin\Debug\Utility.pdb
 C:\Developments\MCSManagement\DALManagment\obj\Debug\ResolveAssemblyReference.cache
 C:\Developments\MCSManagement\DALManagment\obj\Debug\DALManagment.dll
 C:\Developments\MCSManagement\DALManagment\obj\Debug\DALManagment.pdb
+F:\Git configuration\Git Repo\MCSManagement\DALManagment\bin\Debug\DALManagment.dll.config
+F:\Git configuration\Git Repo\MCSManagement\DALManagment\bin\Debug\DALManagment.dll
+F:\Git configuration\Git Repo\MCSManagement\DALManagment\bin\Debug\DALManagment.pdb
+F:\Git configuration\Git Repo\MCSManagement\DALManagment\bin\Debug\Utility.dll
+F:\Git configuration\Git Repo\MCSManagement\DALManagment\bin\Debug\Utility.pdb
+F:\Git configuration\Git Repo\MCSManagement\DALManagment\obj\Debug\DALManagment.csprojResolveAssemblyReference.cache
+F:\Git configuration\Git Repo\MCSManagement\DALManagment\obj\Debug\DALManagment.dll
+F:\Git configuration\Git Repo\MCSManagement\DALManagment\obj\Debug\DALManagment.pdb
