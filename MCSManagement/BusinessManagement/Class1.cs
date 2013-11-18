@@ -1,4 +1,6 @@
-﻿﻿//Modified by faruk
+﻿//File Name: Class1
+//Modified by faruk from Visual studio 2012 @11/19/2013 12:37AM
+﻿//Modified by faruk
 using System;
 using System.Collections.Generic;
 using System.Linq;

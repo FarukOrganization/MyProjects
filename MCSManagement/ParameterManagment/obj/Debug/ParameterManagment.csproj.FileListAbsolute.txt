@@ -26,3 +26,12 @@ F:\Git configuration\Git Repo\MCSManagement\ParameterManagment\bin\Debug\Utility
 F:\Git configuration\Git Repo\MCSManagement\ParameterManagment\obj\Debug\ParameterManagment.csprojResolveAssemblyReference.cache
 F:\Git configuration\Git Repo\MCSManagement\ParameterManagment\obj\Debug\ParameterManagment.dll
 F:\Git configuration\Git Repo\MCSManagement\ParameterManagment\obj\Debug\ParameterManagment.pdb
+F:\Git test repository\MyProjects\MCSManagement\ParameterManagment\bin\Debug\ParameterManagment.dll
+F:\Git test repository\MyProjects\MCSManagement\ParameterManagment\bin\Debug\ParameterManagment.pdb
+F:\Git test repository\MyProjects\MCSManagement\ParameterManagment\bin\Debug\DALManagment.dll
+F:\Git test repository\MyProjects\MCSManagement\ParameterManagment\bin\Debug\Utility.dll
+F:\Git test repository\MyProjects\MCSManagement\ParameterManagment\bin\Debug\DALManagment.pdb
+F:\Git test repository\MyProjects\MCSManagement\ParameterManagment\bin\Debug\Utility.pdb
+F:\Git test repository\MyProjects\MCSManagement\ParameterManagment\obj\Debug\ParameterManagment.csprojResolveAssemblyReference.cache
+F:\Git test repository\MyProjects\MCSManagement\ParameterManagment\obj\Debug\ParameterManagment.dll
+F:\Git test repository\MyProjects\MCSManagement\ParameterManagment\obj\Debug\ParameterManagment.pdb

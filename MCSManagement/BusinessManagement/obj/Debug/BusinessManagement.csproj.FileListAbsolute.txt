@@ -25,3 +25,12 @@ F:\Git configuration\Git Repo\MCSManagement\BusinessManagement\bin\Debug\Utility
 F:\Git configuration\Git Repo\MCSManagement\BusinessManagement\obj\Debug\BusinessManagement.csprojResolveAssemblyReference.cache
 F:\Git configuration\Git Repo\MCSManagement\BusinessManagement\obj\Debug\BusinessManagement.dll
 F:\Git configuration\Git Repo\MCSManagement\BusinessManagement\obj\Debug\BusinessManagement.pdb
+F:\Git test repository\MyProjects\MCSManagement\BusinessManagement\bin\Debug\BusinessManagement.dll
+F:\Git test repository\MyProjects\MCSManagement\BusinessManagement\bin\Debug\BusinessManagement.pdb
+F:\Git test repository\MyProjects\MCSManagement\BusinessManagement\bin\Debug\DALManagment.dll
+F:\Git test repository\MyProjects\MCSManagement\BusinessManagement\bin\Debug\Utility.dll
+F:\Git test repository\MyProjects\MCSManagement\BusinessManagement\bin\Debug\DALManagment.pdb
+F:\Git test repository\MyProjects\MCSManagement\BusinessManagement\bin\Debug\Utility.pdb
+F:\Git test repository\MyProjects\MCSManagement\BusinessManagement\obj\Debug\BusinessManagement.csprojResolveAssemblyReference.cache
+F:\Git test repository\MyProjects\MCSManagement\BusinessManagement\obj\Debug\BusinessManagement.dll
+F:\Git test repository\MyProjects\MCSManagement\BusinessManagement\obj\Debug\BusinessManagement.pdb
