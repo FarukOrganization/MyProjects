@@ -1,4 +1,6 @@
-﻿using System;
+﻿//File Name: Class2
+//Modified by faruk from Visual studio 2012 @11/19/2013 12:46AM
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
