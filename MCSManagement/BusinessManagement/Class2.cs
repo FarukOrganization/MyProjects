@@ -1,4 +1,5 @@
-﻿//File Name: Class2
+﻿// Changed from F:\Git repository_3\MyProjects\MCSManagement\BusinessManagement\Class2.cs
+//File Name: Class2
 //Modified by faruk from Visual studio 2012 @11/19/2013 12:46AM
 using System;
 using System.Collections.Generic;
