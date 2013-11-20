@@ -1,4 +1,4 @@
-﻿//Changed by Faruk @Office machine -----> F:\Git Works\MyProjects\MCSManagement\BusinessManagement\Class2.cs
+﻿//Changed by Faruk @Office machine -----> F:\Git Works Clone\MyProjects\MCSManagement\BusinessManagement\Class2.cs
 // Changed from F:\Git repository_3\MyProjects\MCSManagement\BusinessManagement\Class2.cs
 //File Name: Class2
 //Modified by faruk from Visual studio 2012 @11/19/2013 12:46AM
