@@ -52,6 +52,7 @@
     <Compile Include="CBusinessManagement.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Class2.cs" />
+    <Compile Include="Class3.cs" />
     <Compile Include="CPurchaseInformationManagment.cs" />
     <Compile Include="CSellInformationManagment.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
